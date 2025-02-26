@@ -1,0 +1,990 @@
+[2025-02-12T07:54:59.679+0000] {processor.py:154} INFO - Started process (PID=931) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:54:59.682+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:54:59.685+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:54:59.685+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:54:59.768+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:55:00.307+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.306+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:xcom_dag
+[2025-02-12T07:55:00.333+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.332+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:xcom_dag
+[2025-02-12T07:55:00.358+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.358+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:xcom_dag
+[2025-02-12T07:55:00.359+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.359+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:55:00.416+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.416+0000] {dag.py:2606} INFO - Creating ORM DAG for xcom_dag
+[2025-02-12T07:55:00.445+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:00.444+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:55:00.477+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.813 seconds
+[2025-02-12T07:55:30.958+0000] {processor.py:154} INFO - Started process (PID=958) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:55:30.960+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:55:30.961+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:30.961+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:55:31.004+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:55:31.091+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:31.090+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:55:31.152+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:55:31.152+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:55:31.193+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.242 seconds
+[2025-02-12T07:56:01.339+0000] {processor.py:154} INFO - Started process (PID=995) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:01.340+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:56:01.342+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:01.341+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:01.383+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:01.464+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:01.463+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:56:01.524+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:01.524+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:56:01.565+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.232 seconds
+[2025-02-12T07:56:31.877+0000] {processor.py:154} INFO - Started process (PID=1022) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:31.880+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:56:31.882+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:31.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:31.917+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:56:31.990+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:31.990+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:56:32.038+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:56:32.038+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:56:32.072+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.202 seconds
+[2025-02-12T07:57:02.680+0000] {processor.py:154} INFO - Started process (PID=1049) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:02.681+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:57:02.683+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:02.682+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:02.835+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:02.993+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:02.993+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:57:03.090+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:03.089+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:57:03.146+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.475 seconds
+[2025-02-12T07:57:10.577+0000] {processor.py:154} INFO - Started process (PID=1062) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:10.578+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:57:10.580+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:10.580+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:10.626+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:10.702+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:10.702+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:57:10.757+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:10.757+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:57:10.796+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.227 seconds
+[2025-02-12T07:57:41.440+0000] {processor.py:154} INFO - Started process (PID=1087) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:41.442+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:57:41.443+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:41.443+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:41.489+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:57:41.575+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:41.575+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:57:41.647+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:57:41.647+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:57:41.696+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.264 seconds
+[2025-02-12T07:58:11.794+0000] {processor.py:154} INFO - Started process (PID=1123) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:11.796+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:58:11.802+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:11.801+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:11.858+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:11.979+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:11.979+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:58:12.079+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:12.078+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:58:12.144+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.357 seconds
+[2025-02-12T07:58:22.403+0000] {processor.py:154} INFO - Started process (PID=1128) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:22.404+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:58:22.406+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:22.405+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:22.526+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:22.767+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:22.767+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:58:22.848+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:22.847+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:58:22.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.497 seconds
+[2025-02-12T07:58:31.862+0000] {processor.py:154} INFO - Started process (PID=1140) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:31.864+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:58:31.866+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:31.865+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:31.908+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:58:31.984+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:31.983+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:58:32.034+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:58:32.034+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:58:32.070+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.213 seconds
+[2025-02-12T07:59:02.277+0000] {processor.py:154} INFO - Started process (PID=1167) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:02.279+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:59:02.282+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:02.281+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:02.333+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:02.406+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:02.405+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:59:02.454+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:02.453+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:59:02.489+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.222 seconds
+[2025-02-12T07:59:32.714+0000] {processor.py:154} INFO - Started process (PID=1203) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:32.715+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:59:32.717+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:32.716+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:32.763+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:32.846+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:32.846+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:59:32.916+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:32.916+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:59:32.965+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.257 seconds
+[2025-02-12T07:59:54.746+0000] {processor.py:154} INFO - Started process (PID=1227) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:54.748+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T07:59:54.750+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:54.750+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:54.806+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T07:59:54.898+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:54.898+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T07:59:54.969+0000] {logging_mixin.py:120} INFO - [2025-02-12T07:59:54.969+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T07:59:55.028+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.289 seconds
+[2025-02-12T08:00:25.413+0000] {processor.py:154} INFO - Started process (PID=1254) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:25.415+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:00:25.418+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:25.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:25.455+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:25.531+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:25.530+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:00:25.586+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:25.585+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:00:25.619+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.211 seconds
+[2025-02-12T08:00:56.165+0000] {processor.py:154} INFO - Started process (PID=1281) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:56.167+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:00:56.168+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:56.168+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:56.207+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:00:56.286+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:56.286+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:00:56.334+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:00:56.334+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:00:56.368+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.210 seconds
+[2025-02-12T08:01:27.138+0000] {processor.py:154} INFO - Started process (PID=1317) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:27.140+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:01:27.145+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:27.144+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:27.316+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:27.584+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:27.584+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:01:27.668+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:27.667+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:01:27.717+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.586 seconds
+[2025-02-12T08:01:33.070+0000] {processor.py:154} INFO - Started process (PID=1321) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:33.072+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:01:33.073+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:33.073+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:33.125+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:01:33.195+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:33.194+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:01:33.240+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:01:33.239+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:01:33.274+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.209 seconds
+[2025-02-12T08:02:04.046+0000] {processor.py:154} INFO - Started process (PID=1357) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:04.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:02:04.049+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:04.049+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:04.087+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:04.180+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:04.180+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:02:04.232+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:04.232+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:02:04.265+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.224 seconds
+[2025-02-12T08:02:11.191+0000] {processor.py:154} INFO - Started process (PID=1359) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:11.193+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:02:11.194+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:11.194+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:11.245+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:11.349+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:11.349+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:02:11.410+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:11.410+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:02:11.448+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.271 seconds
+[2025-02-12T08:02:41.874+0000] {processor.py:154} INFO - Started process (PID=1395) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:41.876+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:02:41.877+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:41.877+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:41.920+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:42.006+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:42.006+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:02:42.095+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:42.095+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:02:42.141+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.279 seconds
+[2025-02-12T08:02:46.999+0000] {processor.py:154} INFO - Started process (PID=1396) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:47.002+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:02:47.006+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:47.005+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:47.043+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:02:47.041+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 23, in <module>
+    branch
+NameError: name 'branch' is not defined
+[2025-02-12T08:02:47.044+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:02:47.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.100 seconds
+[2025-02-12T08:03:18.045+0000] {processor.py:154} INFO - Started process (PID=1432) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:18.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:03:18.048+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:03:18.048+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:18.075+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:03:18.073+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 23, in <module>
+    branch
+NameError: name 'branch' is not defined
+[2025-02-12T08:03:18.076+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:18.113+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.074 seconds
+[2025-02-12T08:03:40.904+0000] {processor.py:154} INFO - Started process (PID=1449) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:40.906+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:03:40.907+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:03:40.907+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:40.943+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:03:40.940+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 23, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:03:40.944+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:03:40.985+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.086 seconds
+[2025-02-12T08:04:04.559+0000] {processor.py:154} INFO - Started process (PID=1471) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:04.562+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:04:04.564+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:04.564+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:04.638+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:04.613+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 23, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:04:04.650+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:04.704+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.151 seconds
+[2025-02-12T08:04:19.751+0000] {processor.py:154} INFO - Started process (PID=1487) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:19.753+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:04:19.754+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:19.754+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:19.769+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:19.765+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 17
+    with DAG("xcom_dag", start_date=datetime(2022, 1, 1),
+       ^
+IndentationError: expected an indented block
+[2025-02-12T08:04:19.776+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:19.819+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.075 seconds
+[2025-02-12T08:04:50.120+0000] {processor.py:154} INFO - Started process (PID=1523) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:50.123+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:04:50.124+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:50.124+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:50.135+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:04:50.132+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 17
+    with DAG("xcom_dag", start_date=datetime(2022, 1, 1),
+       ^
+IndentationError: expected an indented block
+[2025-02-12T08:04:50.137+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:04:50.198+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.088 seconds
+[2025-02-12T08:05:01.400+0000] {processor.py:154} INFO - Started process (PID=1535) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:01.403+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:05:01.405+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:05:01.405+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:01.440+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:05:01.438+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 25, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:05:01.441+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:01.484+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.090 seconds
+[2025-02-12T08:05:31.565+0000] {processor.py:154} INFO - Started process (PID=1562) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:31.567+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:05:31.568+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:05:31.568+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:31.592+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:05:31.590+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 25, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:05:31.593+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:05:31.627+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.067 seconds
+[2025-02-12T08:06:02.178+0000] {processor.py:154} INFO - Started process (PID=1598) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:02.180+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:06:02.183+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:06:02.182+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:02.219+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:06:02.214+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 25, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:06:02.221+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:02.257+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.087 seconds
+[2025-02-12T08:06:32.820+0000] {processor.py:154} INFO - Started process (PID=1625) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:32.822+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:06:32.824+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:06:32.824+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:32.848+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:06:32.846+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 25, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:06:32.849+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:06:32.882+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.067 seconds
+[2025-02-12T08:07:03.648+0000] {processor.py:154} INFO - Started process (PID=1659) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:03.650+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:07:03.651+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:03.651+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:03.679+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:03.676+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 25, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:07:03.680+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:03.719+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.076 seconds
+[2025-02-12T08:07:29.753+0000] {processor.py:154} INFO - Started process (PID=1688) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:29.756+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:07:29.758+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:29.757+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:29.799+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:29.796+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 28, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:07:29.800+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:29.852+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.107 seconds
+[2025-02-12T08:07:57.053+0000] {processor.py:154} INFO - Started process (PID=1713) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:57.055+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:07:57.057+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:57.056+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:57.122+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:07:57.119+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:07:57.123+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:07:57.168+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.123 seconds
+[2025-02-12T08:08:27.282+0000] {processor.py:154} INFO - Started process (PID=1740) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:27.284+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:08:27.288+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:08:27.287+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:27.323+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:08:27.320+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:08:27.324+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:27.364+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.088 seconds
+[2025-02-12T08:08:35.565+0000] {processor.py:154} INFO - Started process (PID=1752) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:35.568+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:08:35.572+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:08:35.571+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:35.628+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:08:35.626+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:08:35.629+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:08:35.670+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.112 seconds
+[2025-02-12T08:09:05.871+0000] {processor.py:154} INFO - Started process (PID=1780) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:05.873+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:09:05.874+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:09:05.874+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:05.902+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:09:05.899+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:09:05.904+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:05.938+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.072 seconds
+[2025-02-12T08:09:36.007+0000] {processor.py:154} INFO - Started process (PID=1807) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:36.009+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:09:36.011+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:09:36.011+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:36.037+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:09:36.035+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:09:36.038+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:09:36.076+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.076 seconds
+[2025-02-12T08:10:06.284+0000] {processor.py:154} INFO - Started process (PID=1841) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:06.287+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:10:06.289+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:10:06.289+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:06.318+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:10:06.316+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:10:06.319+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:06.358+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.080 seconds
+[2025-02-12T08:10:36.589+0000] {processor.py:154} INFO - Started process (PID=1868) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:36.615+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:10:36.639+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:10:36.638+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:36.767+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:10:36.765+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:10:36.769+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:10:36.815+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.357 seconds
+[2025-02-12T08:11:06.857+0000] {processor.py:154} INFO - Started process (PID=1908) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:06.859+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:11:06.861+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:06.861+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:06.900+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:06.897+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:11:06.901+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:06.948+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.098 seconds
+[2025-02-12T08:11:37.275+0000] {processor.py:154} INFO - Started process (PID=1934) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:37.276+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:11:37.278+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:37.277+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:37.316+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:37.311+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:11:37.317+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:37.384+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.116 seconds
+[2025-02-12T08:11:54.721+0000] {processor.py:154} INFO - Started process (PID=1948) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:54.723+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:11:54.725+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:54.724+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:54.768+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:11:54.762+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:11:54.770+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:11:54.821+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.106 seconds
+[2025-02-12T08:13:47.927+0000] {processor.py:154} INFO - Started process (PID=47) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:13:47.930+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:13:47.932+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:13:47.932+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:13:48.018+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:13:48.014+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:13:48.019+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:13:48.073+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.153 seconds
+[2025-02-12T08:14:18.585+0000] {processor.py:154} INFO - Started process (PID=83) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:18.587+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:14:18.588+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:14:18.588+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:18.623+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:14:18.619+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:14:18.625+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:18.666+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.088 seconds
+[2025-02-12T08:14:49.372+0000] {processor.py:154} INFO - Started process (PID=110) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:49.374+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:14:49.376+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:14:49.375+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:49.412+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:14:49.407+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:14:49.413+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:14:49.454+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.089 seconds
+[2025-02-12T08:15:20.063+0000] {processor.py:154} INFO - Started process (PID=146) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:20.065+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:15:20.066+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:15:20.066+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:20.097+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:15:20.094+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:15:20.101+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:20.139+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.082 seconds
+[2025-02-12T08:15:50.444+0000] {processor.py:154} INFO - Started process (PID=175) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:50.446+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:15:50.447+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:15:50.447+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:50.480+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:15:50.476+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:15:50.481+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:15:50.517+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.079 seconds
+[2025-02-12T08:16:21.109+0000] {processor.py:154} INFO - Started process (PID=211) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:21.110+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:16:21.112+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:16:21.112+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:21.144+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:16:21.142+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:16:21.145+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:21.180+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.079 seconds
+[2025-02-12T08:16:51.237+0000] {processor.py:154} INFO - Started process (PID=238) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:51.239+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:16:51.241+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:16:51.240+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:51.267+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:16:51.265+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:16:51.268+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:16:51.305+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.074 seconds
+[2025-02-12T08:17:21.418+0000] {processor.py:154} INFO - Started process (PID=274) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:21.420+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:17:21.422+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:17:21.421+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:21.480+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:17:21.477+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:17:21.481+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:21.531+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.121 seconds
+[2025-02-12T08:17:52.146+0000] {processor.py:154} INFO - Started process (PID=301) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:52.148+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:17:52.149+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:17:52.149+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:52.178+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:17:52.176+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:17:52.180+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:17:52.217+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.077 seconds
+[2025-02-12T08:18:22.978+0000] {processor.py:154} INFO - Started process (PID=335) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:22.980+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:18:22.982+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:18:22.981+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:23.029+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:18:23.025+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:18:23.030+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:23.081+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.144 seconds
+[2025-02-12T08:18:53.797+0000] {processor.py:154} INFO - Started process (PID=364) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:53.799+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:18:53.802+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:18:53.801+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:54.138+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:18:54.024+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:18:54.140+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:18:54.313+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.538 seconds
+[2025-02-12T08:19:24.633+0000] {processor.py:154} INFO - Started process (PID=391) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:24.635+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:19:24.636+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:19:24.636+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:24.701+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:19:24.696+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:19:24.702+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:24.774+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.149 seconds
+[2025-02-12T08:19:55.035+0000] {processor.py:154} INFO - Started process (PID=417) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:55.037+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:19:55.039+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:19:55.039+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:55.070+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:19:55.068+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:19:55.072+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:19:55.120+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.092 seconds
+[2025-02-12T08:20:25.563+0000] {processor.py:154} INFO - Started process (PID=453) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:25.565+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:20:25.566+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:20:25.566+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:25.602+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:20:25.599+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:20:25.602+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:25.653+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.096 seconds
+[2025-02-12T08:20:55.903+0000] {processor.py:154} INFO - Started process (PID=480) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:55.906+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:20:55.908+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:20:55.908+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:55.942+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:20:55.939+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:20:55.944+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:20:56.006+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.109 seconds
+[2025-02-12T08:21:26.139+0000] {processor.py:154} INFO - Started process (PID=507) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:26.141+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:21:26.142+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:21:26.142+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:26.179+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:21:26.176+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:21:26.181+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:26.235+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.104 seconds
+[2025-02-12T08:21:56.275+0000] {processor.py:154} INFO - Started process (PID=543) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:56.277+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:21:56.280+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:21:56.280+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:56.323+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:21:56.320+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:21:56.325+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:21:56.372+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.103 seconds
+[2025-02-12T08:22:09.929+0000] {processor.py:154} INFO - Started process (PID=560) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:09.931+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:22:09.933+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:22:09.932+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:09.970+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:22:09.967+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:22:09.971+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:10.011+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.088 seconds
+[2025-02-12T08:22:40.394+0000] {processor.py:154} INFO - Started process (PID=587) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:40.398+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:22:40.400+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:22:40.400+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:40.458+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:22:40.445+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:22:40.463+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:22:40.536+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.146 seconds
+[2025-02-12T08:23:10.791+0000] {processor.py:154} INFO - Started process (PID=614) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:10.795+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:23:10.799+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:23:10.798+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:10.892+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:23:10.877+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:23:10.895+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:11.038+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.269 seconds
+[2025-02-12T08:23:41.288+0000] {processor.py:154} INFO - Started process (PID=649) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:41.290+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:23:41.292+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:23:41.292+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:41.324+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:23:41.321+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:23:41.325+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:23:41.591+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.311 seconds
+[2025-02-12T08:24:12.598+0000] {processor.py:154} INFO - Started process (PID=676) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:12.600+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:24:12.602+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:24:12.601+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:12.775+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:24:12.730+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:24:12.777+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:12.837+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.245 seconds
+[2025-02-12T08:24:34.865+0000] {processor.py:154} INFO - Started process (PID=702) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:34.874+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:24:34.878+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:24:34.878+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:35.011+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:24:35.006+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:24:35.013+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:24:35.090+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.295 seconds
+[2025-02-12T08:25:06.039+0000] {processor.py:154} INFO - Started process (PID=728) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:25:06.043+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:25:06.046+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:25:06.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:25:06.085+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:25:06.083+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/xcom_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/xcom_dag.py", line 30, in <module>
+    branch = BranchPythonOperator(
+NameError: name 'BranchPythonOperator' is not defined
+[2025-02-12T08:25:06.086+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:25:06.150+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.119 seconds
+[2025-02-12T08:26:43.938+0000] {processor.py:154} INFO - Started process (PID=46) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:26:43.943+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:26:43.945+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:26:43.944+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:26:44.107+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:26:44.320+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:26:44.320+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:26:44.392+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:26:44.392+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:26:44.487+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.562 seconds
+[2025-02-12T08:27:15.057+0000] {processor.py:154} INFO - Started process (PID=82) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:15.060+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:27:15.061+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:15.061+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:15.106+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:15.175+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:15.175+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:27:15.220+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:15.220+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:27:15.264+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.215 seconds
+[2025-02-12T08:27:45.419+0000] {processor.py:154} INFO - Started process (PID=109) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:45.421+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:27:45.423+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:45.423+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:45.474+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:27:45.574+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:45.573+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:27:45.639+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:27:45.638+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-11T00:00:00+00:00, run_after=2025-02-12T00:00:00+00:00
+[2025-02-12T08:27:45.681+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.268 seconds
+[2025-02-12T08:28:16.326+0000] {processor.py:154} INFO - Started process (PID=144) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:16.328+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:28:16.329+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:16.329+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:16.379+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:16.458+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:16.458+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:28:16.514+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:16.514+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:28:16.555+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.236 seconds
+[2025-02-12T08:28:46.813+0000] {processor.py:154} INFO - Started process (PID=181) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:46.815+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:28:46.816+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:46.816+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:46.859+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:28:46.946+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:46.945+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:28:47.002+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:28:47.002+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:28:47.042+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.234 seconds
+[2025-02-12T08:29:17.176+0000] {processor.py:154} INFO - Started process (PID=208) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:17.178+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:29:17.181+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:17.180+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:17.229+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:17.350+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:17.349+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:29:17.422+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:17.421+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:29:17.472+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.304 seconds
+[2025-02-12T08:29:48.452+0000] {processor.py:154} INFO - Started process (PID=244) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:48.454+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:29:48.456+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:48.455+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:48.507+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:29:48.601+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:48.600+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:29:48.667+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:29:48.667+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:29:48.709+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.262 seconds
+[2025-02-12T08:30:18.769+0000] {processor.py:154} INFO - Started process (PID=271) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:18.771+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:30:18.774+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:18.773+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:18.819+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:18.904+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:18.903+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:30:18.965+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:18.965+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:30:19.014+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.252 seconds
+[2025-02-12T08:30:49.492+0000] {processor.py:154} INFO - Started process (PID=318) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:49.494+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:30:49.495+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:49.495+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:49.546+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:30:49.642+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:49.642+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:30:49.704+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:30:49.704+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:30:49.737+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.253 seconds
+[2025-02-12T08:31:19.770+0000] {processor.py:154} INFO - Started process (PID=345) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:19.771+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:31:19.772+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:19.772+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:19.807+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:19.908+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:19.907+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:31:19.972+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:19.972+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:31:20.005+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.241 seconds
+[2025-02-12T08:31:50.417+0000] {processor.py:154} INFO - Started process (PID=378) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:50.420+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:31:50.423+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:50.422+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:50.488+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:31:50.608+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:50.608+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:31:50.688+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:31:50.688+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:31:50.758+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.455 seconds
+[2025-02-12T08:32:20.826+0000] {processor.py:154} INFO - Started process (PID=408) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:20.829+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:32:20.831+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:20.831+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:20.877+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:20.970+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:20.970+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:32:21.033+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:21.032+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:32:21.074+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.255 seconds
+[2025-02-12T08:32:41.076+0000] {processor.py:154} INFO - Started process (PID=422) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:41.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:32:41.079+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:41.078+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:41.129+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:32:41.314+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:41.313+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:32:41.363+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:32:41.362+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:32:41.415+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.347 seconds
+[2025-02-12T08:33:11.486+0000] {processor.py:154} INFO - Started process (PID=458) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:11.488+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:33:11.490+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:11.489+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:11.543+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:11.628+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:11.628+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:33:11.683+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:11.682+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:33:11.720+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.243 seconds
+[2025-02-12T08:33:42.075+0000] {processor.py:154} INFO - Started process (PID=486) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:42.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:33:42.078+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:42.078+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:42.135+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:33:42.229+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:42.229+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:33:42.286+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:33:42.286+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:33:42.320+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.256 seconds
+[2025-02-12T08:34:06.015+0000] {processor.py:154} INFO - Started process (PID=514) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:06.017+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:34:06.019+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:06.019+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:06.083+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:06.241+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:06.241+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:34:06.339+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:06.338+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:34:06.514+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.507 seconds
+[2025-02-12T08:34:37.191+0000] {processor.py:154} INFO - Started process (PID=540) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:37.198+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:34:37.200+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:37.200+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:37.241+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:34:37.317+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:37.317+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:34:37.374+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:34:37.374+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:34:37.413+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.229 seconds
+[2025-02-12T08:35:07.997+0000] {processor.py:154} INFO - Started process (PID=568) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:08.000+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:35:08.005+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:08.004+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:08.079+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:08.214+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:08.214+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:35:08.312+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:08.311+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:35:08.358+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.371 seconds
+[2025-02-12T08:35:38.511+0000] {processor.py:154} INFO - Started process (PID=603) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:38.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:35:38.514+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:38.514+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:38.559+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:35:38.647+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:38.646+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:35:38.709+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:35:38.709+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:35:38.750+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.246 seconds
+[2025-02-12T08:36:09.369+0000] {processor.py:154} INFO - Started process (PID=630) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:09.372+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:36:09.374+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:09.374+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:09.506+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:09.759+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:09.759+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:36:09.826+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:09.826+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:36:09.871+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.532 seconds
+[2025-02-12T08:36:40.236+0000] {processor.py:154} INFO - Started process (PID=666) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:40.240+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:36:40.242+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:40.241+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:40.304+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:36:40.399+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:40.399+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:36:40.473+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:36:40.473+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:36:40.530+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.301 seconds
+[2025-02-12T08:37:10.696+0000] {processor.py:154} INFO - Started process (PID=693) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:10.698+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:37:10.701+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:10.701+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:10.746+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:10.836+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:10.836+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:37:10.898+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:10.897+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:37:10.939+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.253 seconds
+[2025-02-12T08:37:41.329+0000] {processor.py:154} INFO - Started process (PID=721) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:41.331+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:37:41.333+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:41.333+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:41.373+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:37:41.452+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:41.452+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:37:41.509+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:37:41.508+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:37:41.547+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.224 seconds
+[2025-02-12T08:38:12.403+0000] {processor.py:154} INFO - Started process (PID=756) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:12.405+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:38:12.407+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:12.407+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:12.514+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:12.642+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:12.642+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:38:12.731+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:12.730+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:38:12.778+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.440 seconds
+[2025-02-12T08:38:43.528+0000] {processor.py:154} INFO - Started process (PID=782) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:43.535+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:38:43.537+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:43.537+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:43.582+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:38:43.670+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:43.669+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:38:43.724+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:38:43.724+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:38:43.757+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.238 seconds
+[2025-02-12T08:39:14.465+0000] {processor.py:154} INFO - Started process (PID=817) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:14.466+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:39:14.468+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:14.467+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:14.522+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:14.628+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:14.627+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:39:14.689+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:14.689+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:39:14.724+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.266 seconds
+[2025-02-12T08:39:45.329+0000] {processor.py:154} INFO - Started process (PID=844) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:45.331+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:39:45.333+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:45.333+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:45.376+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:39:45.483+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:45.482+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:39:45.560+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:39:45.559+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:39:45.608+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.287 seconds
+[2025-02-12T08:40:15.780+0000] {processor.py:154} INFO - Started process (PID=871) to work on /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:40:15.782+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2025-02-12T08:40:15.784+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:40:15.784+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:40:15.828+0000] {processor.py:766} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2025-02-12T08:40:15.906+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:40:15.905+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-12T08:40:15.962+0000] {logging_mixin.py:120} INFO - [2025-02-12T08:40:15.962+0000] {dag.py:3340} INFO - Setting next_dagrun for xcom_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-12T08:40:16.016+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.242 seconds

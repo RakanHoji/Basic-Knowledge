@@ -1,0 +1,26 @@
+[2025-02-09T03:53:56.848+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-09T03:53:57.057+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-09T03:53:57.138+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-09T03:53:57.142+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-02-09T03:53:57.143+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-09T03:53:57.437+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2025-02-04 00:00:00+00:00
+[2025-02-09T03:53:57.471+0000] {standard_task_runner.py:55} INFO - Started process 113 to run task
+[2025-02-09T03:53:57.546+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2025-02-04T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp1eq18swc']
+[2025-02-09T03:53:57.556+0000] {standard_task_runner.py:83} INFO - Job 29: Subtask extract_user
+[2025-02-09T03:53:57.944+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2025-02-04T00:00:00+00:00 [running]> on host fb1f760c5ca3
+[2025-02-09T03:53:58.483+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-04T00:00:00+00:00
+[2025-02-09T03:53:58.494+0000] {http.py:121} INFO - Calling HTTP method
+[2025-02-09T03:53:58.530+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2025-02-09T03:53:58.534+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2025-02-09T03:53:58.840+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Mark","last":"Reyes"},"location":{"street":{"number":7225,"name":"Washington Ave"},"city":"Great Falls","state":"New Jersey","country":"United States","postcode":40630,"coordinates":{"latitude":"87.6817","longitude":"-47.5928"},"timezone":{"offset":"+1:00","description":"Brussels, Copenhagen, Madrid, Paris"}},"email":"mark.reyes@example.com","login":{"uuid":"ab7bf695-c7c7-4a64-a00d-47a399e639dd","username":"angryswan362","password":"1002","salt":"VBYBPAql","md5":"8158d6654fbe0e9419a1535b4eff47d9","sha1":"1f4d63da3b8b8fbfc92a13799eed5ecf3d937539","sha256":"0031264697978acaf45274a1799b5e1c223683b9dbeeb4cbeb88f8bdbe5af323"},"dob":{"date":"1969-11-06T08:24:15.163Z","age":55},"registered":{"date":"2015-07-12T12:47:08.717Z","age":9},"phone":"(658) 526-8800","cell":"(694) 990-1365","id":{"name":"SSN","value":"710-62-5415"},"picture":{"large":"https://randomuser.me/api/portraits/men/24.jpg","medium":"https://randomuser.me/api/portraits/med/men/24.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/24.jpg"},"nat":"US"}],"info":{"seed":"05f6ad98bddb8ffe","results":1,"page":1,"version":"1.4"}}
+[2025-02-09T03:53:58.903+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20250204T000000, start_date=20250209T035356, end_date=20250209T035358
+[2025-02-09T03:53:59.003+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2025-02-09T03:53:59.136+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

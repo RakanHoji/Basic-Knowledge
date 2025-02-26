@@ -1,0 +1,14 @@
+[2025-02-13T08:10:00.465+0000] {processor.py:154} INFO - Started process (PID=370) to work on /opt/airflow/dags/elastic_dag.py
+[2025-02-13T08:10:00.467+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2025-02-13T08:10:00.471+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:00.471+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2025-02-13T08:10:01.166+0000] {processor.py:766} INFO - DAG(s) dict_keys(['elastic_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2025-02-13T08:10:01.477+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.476+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:elastic_dag
+[2025-02-13T08:10:01.498+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.497+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:elastic_dag
+[2025-02-13T08:10:01.512+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.512+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:elastic_dag
+[2025-02-13T08:10:01.513+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.513+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-02-13T08:10:01.537+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.536+0000] {dag.py:2606} INFO - Creating ORM DAG for elastic_dag
+[2025-02-13T08:10:01.559+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:01.558+0000] {dag.py:3340} INFO - Setting next_dagrun for elastic_dag to 2025-02-12T00:00:00+00:00, run_after=2025-02-13T00:00:00+00:00
+[2025-02-13T08:10:01.594+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/elastic_dag.py took 1.134 seconds
+[2025-02-13T08:10:32.044+0000] {processor.py:154} INFO - Started process (PID=408) to work on /opt/airflow/dags/elastic_dag.py
+[2025-02-13T08:10:32.045+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2025-02-13T08:10:32.046+0000] {logging_mixin.py:120} INFO - [2025-02-13T08:10:32.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py

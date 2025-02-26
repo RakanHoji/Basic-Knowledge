@@ -1,0 +1,32 @@
+[2025-02-09T03:54:06.021+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.store_user scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-09T03:54:06.047+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.store_user scheduled__2025-02-04T00:00:00+00:00 [queued]>
+[2025-02-09T03:54:06.048+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-09T03:54:06.049+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-02-09T03:54:06.049+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-09T03:54:06.079+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): store_user> on 2025-02-04 00:00:00+00:00
+[2025-02-09T03:54:06.092+0000] {standard_task_runner.py:55} INFO - Started process 126 to run task
+[2025-02-09T03:54:06.099+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'store_user', 'scheduled__2025-02-04T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpfq5afbzg']
+[2025-02-09T03:54:06.104+0000] {standard_task_runner.py:83} INFO - Job 32: Subtask store_user
+[2025-02-09T03:54:06.253+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.store_user scheduled__2025-02-04T00:00:00+00:00 [running]> on host fb1f760c5ca3
+[2025-02-09T03:54:06.625+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=store_user
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-04T00:00:00+00:00
+[2025-02-09T03:54:06.628+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/user_processing.py", line 29, in _store_user
+    hook = postgresHook(postgres_conn_id='postgres')  # Hook is an Extracting Tool
+NameError: name 'postgresHook' is not defined
+[2025-02-09T03:54:06.674+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=user_processing, task_id=store_user, execution_date=20250204T000000, start_date=20250209T035406, end_date=20250209T035406
+[2025-02-09T03:54:06.827+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 32 for task store_user (name 'postgresHook' is not defined; 126)
+[2025-02-09T03:54:07.027+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2025-02-09T03:54:07.197+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

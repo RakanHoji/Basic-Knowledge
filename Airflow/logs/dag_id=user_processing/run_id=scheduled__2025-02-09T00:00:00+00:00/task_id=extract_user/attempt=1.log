@@ -1,0 +1,26 @@
+[2025-02-11T05:16:25.219+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2025-02-09T00:00:00+00:00 [queued]>
+[2025-02-11T05:16:25.244+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2025-02-09T00:00:00+00:00 [queued]>
+[2025-02-11T05:16:25.245+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-11T05:16:25.245+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-02-11T05:16:25.246+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-11T05:16:25.270+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2025-02-09 00:00:00+00:00
+[2025-02-11T05:16:25.281+0000] {standard_task_runner.py:55} INFO - Started process 89 to run task
+[2025-02-11T05:16:25.288+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2025-02-09T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpowa__4it']
+[2025-02-11T05:16:25.291+0000] {standard_task_runner.py:83} INFO - Job 46: Subtask extract_user
+[2025-02-11T05:16:25.398+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2025-02-09T00:00:00+00:00 [running]> on host 697030c1eb04
+[2025-02-11T05:16:25.511+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-09T00:00:00+00:00
+[2025-02-11T05:16:25.512+0000] {http.py:121} INFO - Calling HTTP method
+[2025-02-11T05:16:25.527+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2025-02-11T05:16:25.529+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2025-02-11T05:16:25.860+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Hudson","last":"Barnaby"},"location":{"street":{"number":7747,"name":"Maple Ave"},"city":"Hampstead","state":"Prince Edward Island","country":"Canada","postcode":"W6Z 2S7","coordinates":{"latitude":"-71.0207","longitude":"-80.9108"},"timezone":{"offset":"-7:00","description":"Mountain Time (US & Canada)"}},"email":"hudson.barnaby@example.com","login":{"uuid":"613ca6b4-48e5-4674-815a-76f86b4bf340","username":"goldenmouse499","password":"aliens","salt":"tF4vyCsc","md5":"1fb2742e04b4b270264d0ba890b27660","sha1":"6db8f6729985f586143e17a352d0511d5e8e8079","sha256":"92b74caba0e599d032fe10d3b686dee054ee17bf9480fa4e1a9586263dfecd5b"},"dob":{"date":"1967-10-10T08:33:33.946Z","age":57},"registered":{"date":"2022-02-04T21:06:22.503Z","age":3},"phone":"L72 S92-3037","cell":"D09 D93-5583","id":{"name":"SIN","value":"812436772"},"picture":{"large":"https://randomuser.me/api/portraits/men/51.jpg","medium":"https://randomuser.me/api/portraits/med/men/51.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/51.jpg"},"nat":"CA"}],"info":{"seed":"cd6d7117020889c0","results":1,"page":1,"version":"1.4"}}
+[2025-02-11T05:16:25.896+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20250209T000000, start_date=20250211T051625, end_date=20250211T051625
+[2025-02-11T05:16:25.957+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2025-02-11T05:16:26.006+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

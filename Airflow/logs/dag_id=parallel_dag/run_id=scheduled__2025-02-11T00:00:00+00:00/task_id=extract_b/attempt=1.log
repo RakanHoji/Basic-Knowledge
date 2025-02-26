@@ -1,0 +1,27 @@
+[2025-02-12T08:30:33.361+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: parallel_dag.extract_b scheduled__2025-02-11T00:00:00+00:00 [queued]>
+[2025-02-12T08:30:33.408+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: parallel_dag.extract_b scheduled__2025-02-11T00:00:00+00:00 [queued]>
+[2025-02-12T08:30:33.410+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-12T08:30:33.411+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-02-12T08:30:33.412+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-02-12T08:30:33.584+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): extract_b> on 2025-02-11 00:00:00+00:00
+[2025-02-12T08:30:33.595+0000] {standard_task_runner.py:55} INFO - Started process 235 to run task
+[2025-02-12T08:30:33.615+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'parallel_dag', 'extract_b', 'scheduled__2025-02-11T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmptaki0cso']
+[2025-02-12T08:30:33.621+0000] {standard_task_runner.py:83} INFO - Job 114: Subtask extract_b
+[2025-02-12T08:30:34.324+0000] {task_command.py:376} INFO - Running <TaskInstance: parallel_dag.extract_b scheduled__2025-02-11T00:00:00+00:00 [running]> on host bb70ba7cbe58
+[2025-02-12T08:30:34.534+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=extract_b
+AIRFLOW_CTX_EXECUTION_DATE=2025-02-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-02-11T00:00:00+00:00
+[2025-02-12T08:30:34.545+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2025-02-12T08:30:34.551+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 1']
+[2025-02-12T08:30:34.590+0000] {subprocess.py:86} INFO - Output:
+[2025-02-12T08:30:35.607+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-02-12T08:30:35.721+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=extract_b, execution_date=20250211T000000, start_date=20250212T083033, end_date=20250212T083035
+[2025-02-12T08:30:35.790+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2025-02-12T08:30:35.872+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
